@@ -23,18 +23,18 @@ app.use('/assets/', express.static(__dirname + '/public/assets/'));
 // ------------------------------------
 // Set MySQL Connection
 // ------------------------------------
-app.use(
+// app.use(
 
-    connection(mysql, {
-        host     : 'localhost',
-        user     : 'specialU',
-        password : '5p3c1alP',
-        database : 'special',
-        insecureAuth: true,
-        debug    : false 
-    },'request')
+//     connection(mysql, {
+//         host     : 'localhost',
+//         user     : 'specialU',
+//         password : '5p3c1alP',
+//         database : 'special',
+//         insecureAuth: true,
+//         debug    : false 
+//     },'request')
 
-);
+// );
 
 // ------------------------------------
 // Route to index page
@@ -83,6 +83,7 @@ board.on('ready', function(){
 	desBtn.on('hit', function(){
 		
 		showDes();
+		
 	});   
 
 	// allBtn.on('release', function(){

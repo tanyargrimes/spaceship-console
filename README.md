@@ -8,7 +8,7 @@ Ensure npm and node are installed
 
 Browse to the location of the folder in the console
 
-Type 'sudo npm install' to install are necessary npm modules
+Type 'sudo npm install' to install all necessary npm modules
 
 Type 'node server.js' to start running the server
 
