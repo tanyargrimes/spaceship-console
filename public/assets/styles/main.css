@@ -2,7 +2,7 @@ body, html {
 	/*width: 100%;*/
 	margin: 0;
 	padding: 0;
-	background-color: #000;
+	background-color: #232f44;
 	height: 100%;
 }
 
@@ -34,6 +34,10 @@ body, html {
 
 .cadets .cadet:nth-child(3) {
 	margin-right: 0;
+}
+
+.cadets .cadet img {
+	width: 100%;
 }
 
 

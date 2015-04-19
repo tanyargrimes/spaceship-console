@@ -83,6 +83,7 @@ board.on('ready', function(){
 	desBtn.on('hit', function(){
 		
 		showDes();
+		
 	});   
 
 	// allBtn.on('release', function(){
