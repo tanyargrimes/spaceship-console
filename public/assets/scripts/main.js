@@ -114,6 +114,10 @@ jQuery(function($) {
 
             getRandomStudents();
 
+            console.log('off');
+
+            socket.emit('stopBlinking', 'off');
+
         }, 10000);
 
     }
@@ -153,7 +157,7 @@ jQuery(function($) {
                 randomThree[randomThree.length] = randomNumber;
         }
 
-        console.log(randomThree);
+        //console.log(randomThree);
 
         return randomThree;
     }
